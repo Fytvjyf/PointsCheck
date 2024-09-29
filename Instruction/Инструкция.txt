@@ -1,0 +1,20 @@
+Для построения графиков в python используются
+pandas
+plotly
+PyQt5
+PyQtWebEngine
+
+Запустить сначала надо PointsCheck, затем - visualization.
+
+Ярлык PointsCheck запускает 
+C:\Solution\PointsCheck\out\build\x64-release\PointsCheck.exe 
+с параметрами:
+"C:\\Solution\\files\\points.txt" 
+"C:\\Solution\\files\\planes.txt"
+
+Ярлык visualization запускает 
+%LocalAppData%\Programs\Python\Python312\python.exe 
+с параметрами (скрипт и его входные параметры): 
+C:\Solution\visualization\visualization.py 
+"C:\Solution\files\points_good.txt"  
+"C:\Solution\files\points_wrong.txt"
